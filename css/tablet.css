@@ -1,0 +1,72 @@
+/* TABLET */
+
+@media (max-width: 992px) {
+  /* Nav -bar */
+  #nav-bar img {
+    display: none;
+  }
+
+  .nav-bar-name {
+    border-left: 1px solid #dee2e6;
+    border-right: 1px solid #dee2e6;
+  }
+
+  #nav-bar .container {
+    width: 90vw;
+  }
+
+  /* Job */
+
+  #job-info .container {
+    width: 80vw;
+    position: relative;
+    height: 1500px;
+  }
+  .job-left-1 {
+    width: 48%;
+    height: 44%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  .job-left-2 {
+    width: 48%;
+    height: 32%;
+    top: 45%;
+    left: 0;
+    position: absolute;
+  }
+  .job-left-3 {
+    width: 48%;
+    height: 23%;
+    top: 78%;
+    left: 0;
+    position: absolute;
+  }
+  .job-right-1 {
+    width: 48%;
+    height: 29%;
+    top: 0;
+    right: 0;
+    position: absolute;
+  }
+  .job-right-2 {
+    width: 48%;
+    height: 33%;
+    top: 30%;
+    right: 0;
+    position: absolute;
+  }
+  .job-right-3 {
+    width: 48%;
+    height: 16%;
+    top: 64%;
+    right: 0;
+    position: absolute;
+  }
+
+  /* Certificate */
+  #certificate img {
+    width: 280px;
+  }
+}
